@@ -23,7 +23,7 @@ namespace DiamentesX
                     asteriscos = 1;
                     espacos = (numero - 1) / 2;
 
-                    //parte superior ++
+                    //parte superior --
                     for (int linha = 1; espacos > 0; linha++)
                     {
 
@@ -43,7 +43,7 @@ namespace DiamentesX
                         Console.WriteLine(); //parte para a próxima linha
                     }
 
-                    //parte inferior --
+                    //parte inferior ++
                     for (int linha = 1; asteriscos > 0; linha++)
                     {
 
