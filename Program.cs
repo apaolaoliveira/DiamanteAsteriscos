@@ -35,7 +35,7 @@ namespace DiamentesX
 
                         for (int i = 1; i <= asteriscos; i++)
                         {
-                            Console.Write("*");
+                            Console.Write("x");
                         }
 
                         espacos--;//decrementa 1
@@ -55,7 +55,7 @@ namespace DiamentesX
 
                         for (int i = 1; i <= asteriscos; i++)
                         {
-                            Console.Write("*");
+                            Console.Write("x");
                         }
 
                         espacos++;//incrementa 1
